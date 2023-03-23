@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int i, n;
+    long a = 0, b = 1, c = 0;
+
+    printf("Ingrese la cantidad de numeros que desea le aparezcan de la serie Fibonacci: ");
+    scanf("%d", &n);
+    printf("Los %d números de la serie de Fibonacci son: ", n);
+
+    for (i = 1; i <= n; i++) {
+        printf("%ld ", a);
+        /*Secuencia Fibonacci*/
+        
+        c = a + b;
+        a = b;
+        b = c;
+    }
+
+    return 0;
+}

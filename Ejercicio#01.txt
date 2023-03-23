@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main() {
+    char* a = "Mariana Quiros" ;
+    int b = 21019;
+    printf("El nombre de la estudiante es: %s y el número de su carnet es: %d\n", a, b);
+    return 0;
+}
